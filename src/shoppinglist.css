@@ -1,0 +1,36 @@
+body{ margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background: rgb(36,10,0);
+background: linear-gradient(90deg, rgba(36,10,0,1) 0%, rgba(121,9,75,0.6587009803921569) 35%, rgba(0,212,255,1) 100%);
+    }
+    h1{font-size: 30px!important;
+        text-align: center;  color: #00b3ff ;}
+        input{height: 40px;
+            width: 200px; font-size:15px ; }
+            
+             .add{width: 80px; margin-top: 10px;
+                 height: 40px; font-size: 12px; background-color: black; color: white;}        
+                .content{border: 5px solid black;
+                height:400px; width: 320px; overflow-y: auto; } 
+                li{text-transform: capitalize; border: 2px solid black;
+                width: 260px; margin-top: 10px;padding: 0%; position: relative;
+                font-weight: bold; font-size: 25px; background: rgb(36,10,0);
+              color: white; 
+              background: linear-gradient(90deg, rgba(36,10,0,1) 0%, rgba(121,9,75,0.6587009803921569) 35%, rgba(0,212,255,1) 100%);
+            }
+            .delt{ position: absolute;right: 0%;  font-size: 20px;
+                 border-left: 5px solid black; color:red;
+            background-color: black;padding: 2px; }
+            @media (min-width:600px) {
+                .content{margin-left: 550px; width: 500px;}
+                h1{font-size: 70px!important;}
+                input{width: 300px;font-size: 25px;}
+                .add{font-size: 25px;width: 140px;}    
+                li{
+                    width: 420px;
+                    font-size: 30px; height: 57px;
+            }
+            .delt{ position: absolute;right: 0%;  font-size: 30px;
+            }   
+        }
